@@ -18,3 +18,14 @@ or
 ```
 $ ./mvnw spring-boot:run
 ```
+Example table in MySQL:
+```
+create table user
+(
+  id        int          not null primary key,
+  name      varchar(128) not null,
+  last_name varchar(128) not null,
+  email     varchar(128) not null,
+  password  varchar(255) not null
+);
+```
