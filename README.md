@@ -20,12 +20,13 @@ $ ./mvnw spring-boot:run
 ```
 Example table in MySQL:
 ```
-create table user
+CREATE DATABASE spring_rest CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE TABLE user
 (
   id        int          not null primary key,
   name      varchar(128) not null,
   last_name varchar(128) not null,
   email     varchar(128) not null,
   password  varchar(255) not null
-);
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
