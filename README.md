@@ -1,5 +1,5 @@
-# Microservice using Spring Boot on Docker
-Microservice example to manipulate users on Docker 🐳
+# Microservice using Spring Boot ~~on Docker~~
+Microservice example to manipulate users ~~on Docker 🐳~~
 
 Create package:
 
